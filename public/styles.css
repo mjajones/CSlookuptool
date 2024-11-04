@@ -1,0 +1,34 @@
+#header-banner {
+    display: block;
+    margin: 0 auto 20px; 
+    width: 100%; 
+    max-width: 800px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+select, button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 60%;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}

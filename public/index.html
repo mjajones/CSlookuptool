@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory Lookup</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        
+        #inventory-results table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        #inventory-results table, th, td {
+            border: 1px solid black;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <img src="Header.jpg" alt="Header Banner" id="header-banner">
+    <h1>Inventory Lookup</h1>
+    <label for="location-select">Select Store Location:</label>
+    <select id="location-select">
+        <option value="1">Madison</option>
+        <option value="2">Hattiesburg</option>
+        <option value="3">Gulfport</option>
+        <option value="4">North Warehouse</option> 
+        <option value="5">South Warehouse</option> 
+    </select>
+    <button id="view-inventory-btn">View Inventory</button>
+
+    
+    <div id="inventory-results"></div>
+
+ 
+    <script src="script.js"></script>
+</body>
+</html>
